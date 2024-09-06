@@ -1627,25 +1627,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "28dea519a9695b9977216879a3ebfddf92f1c08c05d984f8996aecd6ecdc811d"
 
 [[package]]
-name = "fibonacci-lib"
-version = "0.1.0"
-dependencies = [
- "alloy-sol-types",
-]
-
-[[package]]
 name = "fibonacci-script"
 version = "0.1.0"
 dependencies = [
  "alloy-sol-types",
  "clap",
- "fibonacci-lib",
  "hex",
  "serde",
  "serde_json",
  "sp1-helper",
  "sp1-sdk",
  "tracing",
+ "zikzakzoo-lib",
 ]
 
 [[package]]
@@ -5993,12 +5986,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "zikzakzoo-lib"
+version = "0.1.0"
+dependencies = [
+ "alloy-sol-types",
+]
+
+[[package]]
 name = "zikzakzoo-program"
 version = "0.1.0"
 dependencies = [
  "alloy-sol-types",
- "fibonacci-lib",
  "sp1-zkvm",
+ "zikzakzoo-lib",
 ]
 
 [[package]]

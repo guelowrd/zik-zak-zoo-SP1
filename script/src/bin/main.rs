@@ -149,6 +149,7 @@ fn main() {
     println!("Seed used: {}", game_round.seed);
     println!("Player moves: {:?}", game_round.player_moves);
 
+    // Write input (seed + moves) as string
     let input = format_seed_and_moves(game_round.seed, &game_round.player_moves);
     stdin.write(&input);
 
