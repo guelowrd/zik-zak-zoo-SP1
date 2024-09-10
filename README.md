@@ -1,5 +1,3 @@
-Here's a rewritten README that describes what the code does:
-
 # ZiK-ZaK-Zoo: A Provable Tic-Tac-Toe Game
 
 This project implements a Tic-Tac-Toe game called ZiK-ZaK-Zoo using the [SP1](https://github.com/succinctlabs/sp1) framework. It demonstrates how to create a provable game where a player can generate a proof of their win against a computer opponent.
@@ -12,7 +10,7 @@ ZiK-ZaK-Zoo is a Tic-Tac-Toe variant where:
 - The game board is represented by numbers 0-8
 
 The game logic includes:
-- A simple random number generator for the computer's moves ((LCR)[https://en.wikipedia.org/wiki/Linear_congruential_generator] with (MMIX)[https://en.wikipedia.org/wiki/MMIX] parameters)
+- A simple random number generator for the computer's moves ([LCR](https://en.wikipedia.org/wiki/Linear_congruential_generator) with [MMIX](https://en.wikipedia.org/wiki/MMIX) parameters)
 - Board state management
 - Win condition checking
 
